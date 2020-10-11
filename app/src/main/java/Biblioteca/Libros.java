@@ -5,12 +5,17 @@ public class Libros
     private int Farenheit;
     private int Revival;
     private int ElAlquimista;
+    private int ElPoder;
+    private int Despertar;
 
     public Libros()
     {
         Farenheit = 7000;
         Revival = 22000;
         ElAlquimista = 45000;
+        ElPoder = 88000;
+        Despertar = 156000;
+
     }
 
     public int getFarenheit()
@@ -28,4 +33,13 @@ public class Libros
         return ElAlquimista;
     }
 
+    public int getElPoder()
+    {
+        return ElPoder;
+    }
+
+    public int getDespertar()
+    {
+        return Despertar;
+    }
 }
