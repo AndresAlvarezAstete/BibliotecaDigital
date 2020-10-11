@@ -8,8 +8,8 @@ public class Libros
 
     public Libros()
     {
-        Farenheit = 5000;
-        Revival = 12000;
+        Farenheit = 7000;
+        Revival = 22000;
         ElAlquimista = 45000;
     }
 
